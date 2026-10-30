@@ -1,0 +1,8 @@
+{
+  "name": "automation-container",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.js",
+    "test": "node scripts/build.js && node test/parser.test.js && node test/material.test.js && node test/draft.test.js && node test/fonnte.test.js"
+  }
+}
